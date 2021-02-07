@@ -1401,6 +1401,11 @@ a {
 }
 
 /* Colors */
+.primary-color,.hover-primary-color:hover {
+	color:#fff!important;
+	background-color:#F4976C!important
+}
+
 .w3-amber,.w3-hover-amber:hover {
 	color:#000!important;
 	background-color:#ffc107!important
@@ -1514,11 +1519,6 @@ a {
 .w3-black,.w3-hover-black:hover {
 	color:#fff!important;
 	background-color:#000!important
-}
-
-.color-lightPink,.w3-hover-black:hover {
-	color:#fff!important;
-	background-color:#E7717D!important
 }
 
 .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover {
@@ -1780,3 +1780,20 @@ a {
 	border-color:#e7ffff!important
 }
 
+.map-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.googlemap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}

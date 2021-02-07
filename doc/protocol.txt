@@ -1,6 +1,8 @@
-6.2.2021 - 1.5 h
+6.2.2021
+	2h
+
 	set up repository	
 	picked color scheme
 	picked template
 
-7.2.2021
+7.2.2021 11:00
